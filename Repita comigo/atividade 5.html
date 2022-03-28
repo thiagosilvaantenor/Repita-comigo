@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 5</title>
+</head>
+<body>
+    <script>
+    //5 - Faça um algoritmo que calcule e escreva a média aritmética dos números inteiros informados pelo usuário. Considere que o primeiro sempre será menor que o segundo.//
+
+    var n1 = parseInt(prompt('Olá, iremos fazer a media de dois numeros, para tal, informe o primeiro numero, tenha em mente que para funcionar, o primeiro numero deve ser menor que o segundo, escreva um numero inteiro'));
+    var n2 = parseInt(prompt('Informe o segundo número'));
+     var soma = 0;
+     var media = 0;
+     
+
+    while(n1 > n2) {
+        n1 = parseInt(prompt('O primeiro número deve ser menor que o segundo, por favor informe outro numero'));
+    }
+    soma = n1 + n2;
+    media = soma/ 2;
+
+ document.write('A média de: ' + n1 + ' e ' + n2 + ' é de ' + media);
+    
+    </script>
+</body>
+</html>

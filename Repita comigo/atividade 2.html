@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 2</title>
+</head>
+<body>
+    <script>
+    //2 - Crie uma bomba relógio (usando somente código - para deixar claro!) cuja contagem regressiva vá de 30 a 0. Utilize "document.write" para escrever em tela e no final da repetição escreva "EXPLOSÃO".//
+
+    alert('CUIDADO!!! A BOMBA VAI EXPLODIR EM 30SEGUNDOS!');
+    var contagem = 30;
+
+        while(contagem >= 0) {
+          document.write(contagem + '<br>');
+                
+        if (contagem === 0) {
+            document.write('EXPLOSÃO');
+
+        }
+        contagem--;
+    }
+    </script>
+</body>
+</html>

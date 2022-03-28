@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 8</title>
+</head>
+<body>
+    <script>
+    /* 8 - Escreva um algoritmo para ler as notas da 1a. e 2a. avaliações de um aluno, calcule e imprima a média (simples) desse aluno. Só devem ser aceitos valores válidos durante a leitura (0 a 10) para cada nota.
+Caso o valor informado para qualquer uma das notas esteja fora do limite estabelecido, deve ser solicitado um novo valor ao usuário.*/
+
+var n1 = parseInt(prompt("Digite a nota da avaliação 1, só podem ser usados valores de 0 a 10"));
+    var n2 = parseInt(prompt("Digite a nota da avaliação 2, só podem ser usados valores de 0 a 10"));
+    soma = n1 + n2;
+    media = soma/ 2;
+    
+        while(n1 & n2 > 10) {
+            n2 = parseInt(prompt("Erro!! Por favor, Digite outro numero, que não menor que 0 ou maior que 10"));
+        }
+        while(n1 & n2 < 0) {
+            n2 = parseInt(prompt("Erro!! Por favor,Digite outro numero, que não seja 0 ou negativo"));
+        }
+    
+    alert('A media do aluno foi de : ' + media);
+</script>
+</body>
+</html>

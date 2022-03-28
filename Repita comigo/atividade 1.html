@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 1</title>
+</head>
+<body>
+    <script>
+    // 1 - Escreva um algoritmo para ler 2 valores informados pelo usuário e se o segundo valor informado for ZERO, deve ser lido um novo valor, ou seja, para o segundo valor não pode ser aceito o valor zero nem negativo e imprimir o resultado da divisão do primeiro valor lido pelo segundo valor lido.//
+
+    var num1 = parseInt(prompt("Digite um numero"));
+    var num2 = parseInt(prompt("Digite outro numero"));
+    
+        while(num2 <= 0) {
+            num2 = parseInt(prompt("Erro!! Por favor,Digite outro numero, que não seja 0 ou negativo"));
+        }
+    var resultado = num1 / num2;
+    alert('A divisão entre ' + num1 + ' e ' + num2 + 'tem como resultado: ' + resultado);
+
+    </script>
+</body>
+</html>

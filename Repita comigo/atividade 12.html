@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 12</title>
+</head>
+<body>
+    <script>
+    /* 12 - Escreva um algoritmo que calcule e imprima a tabuada do número informado pelo usuário (de 1 a 10)*/
+
+    alert('Esse programa irá calcular a tabuada do número que você desejar, do 1 ao 10.');
+    var contagem = 1;
+    var num = parseInt(prompt('Informe o número que deseja saber a tabuada'))
+
+    if (num > 10){
+          alert('Informe somente números de 1 a 10');
+          
+        } else {
+
+        
+        while(contagem <= 10) {
+          document.write(contagem * num + '<br>');
+          contagem++;
+
+        }
+      }
+</script>
+</body>
+</html>
